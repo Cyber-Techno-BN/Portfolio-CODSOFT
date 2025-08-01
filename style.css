@@ -1,0 +1,116 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+.navbar {
+  background-color: #222;
+  padding: 15px 30px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  max-width: 600px;
+  flex: 1;
+}
+
+.hero-left h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero-left h1 span {
+  color: #00bcd4;
+}
+
+.hero-left p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-left .btn {
+  display: inline-block;
+  background-color: #00bcd4;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.hero-left .btn:hover {
+  background-color: #0097a7;
+}
+
+.socials {
+  margin-top: 20px;
+}
+
+.socials a {
+  font-size: 22px;
+  color: #222;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #00bcd4;
+}
+
+.hero-right {
+  flex: 1;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero-right img {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
